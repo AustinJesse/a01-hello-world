@@ -1,4 +1,4 @@
-package com.ualr.helloworld;
+package com.ualr.firstapp;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ualr.myfirstapp", appContext.getPackageName());
+        assertEquals("com.ualr.firstapp", appContext.getPackageName());
     }
 }
